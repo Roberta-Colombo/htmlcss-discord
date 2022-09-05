@@ -13,7 +13,8 @@ body {
 .debug {   /* ricordarsi eliminare! */
     background-color: lightblue;
     border: 1px solid black;
-    height: 625px;
+    height: 500px;
+    width: 500px;
 }
 
 /* Style nav */
@@ -75,6 +76,7 @@ header nav ul {
 header {
     background-image: url("../img/jumbo.png");
     background-size: cover;
+    height: 625px;
 }
 
 .hero-container {
@@ -84,7 +86,7 @@ header {
     color: white;
 }
 
-.hero-text {
+.main-text {
     font-weight: bolder;
     font-size: 25px;
 }
@@ -109,11 +111,23 @@ i {
     font-size: 16px;
 }
 
-.black {
+.black-btn {
     color: white;
     background-color: #23272A;
 }
 
 a.button.black:hover {
     color: white;
+}
+
+/* Style Section */
+
+.section.main-text {
+    color: #23272A;
+    max-width: 300px;
+    padding: 150px 0;
+}
+
+.left-img {
+    margin-top: -80px;
 }
