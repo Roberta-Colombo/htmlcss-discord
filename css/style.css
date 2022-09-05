@@ -88,7 +88,7 @@ header {
 
 .main-text {
     font-weight: bolder;
-    font-size: 25px;
+    font-size: 30px;
 }
 
 p {
@@ -116,11 +116,15 @@ i {
     background-color: #23272A;
 }
 
-a.button.black:hover {
+a.button.black-btn:hover {
     color: white;
 }
 
 /* Style Section */
+
+section{
+    height: 800px;
+}
 
 .section.main-text {
     color: #23272A;
@@ -129,7 +133,7 @@ a.button.black:hover {
 }
 
 .section-img {  /* da chiarire questione margini/ grandezza finestra */
-    margin-top: -80px;
+    margin-top: -100px;
 }
 
 .white-bg {
@@ -138,4 +142,18 @@ a.button.black:hover {
 
 .grey-bg {
     background-color: #F6F6F6;
+}
+
+.last {
+    text-align: center;
+    padding-top: 150px;
+}
+
+.img-last-section {
+    width: 100%;
+}
+
+div.call-to-action {
+    font-size: 28px;
+    padding-top: 0;    
 }
