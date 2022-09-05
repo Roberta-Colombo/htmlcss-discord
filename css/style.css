@@ -5,3 +5,68 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: Helvetica, Arial;
+}
+
+.debug {   /* ricordarsi eliminare! */
+    background-color: lightblue;
+    border: 1px solid black;
+    height: 400px;
+}
+
+/* Style nav */
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+nav {
+    padding-top: 25px;
+    font-weight: 500;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+li a {
+    color: white;
+}
+
+li a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.button {
+    border-style: none;
+    background-color: white;
+    border-radius: 25px;
+    padding: 10px 18px;
+    color: black;
+    font-size: 14px;
+}
+
+a.button:hover {
+    color: #5865F2;
+}
+
+.flexbox {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul {
+    min-width: 500px;
+}
