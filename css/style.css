@@ -17,6 +17,12 @@ body {
     width: 500px;
 }
 
+.clearfix::after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
 /* Style nav */
 
 .container {
@@ -155,5 +161,29 @@ section{
 
 div.call-to-action {
     font-size: 28px;
-    padding-top: 0;    
+    padding-top: 0; 
+    padding-bottom: 90px;   
+}
+
+.scritta-cta {
+    margin-top: -15px;
+    padding-bottom: 20px;
+}
+
+.violet-btn {
+    color: white;
+    background-color: #8EA1E1;
+    padding: 10px 20px;
+}
+
+a.button.violet-btn:hover {
+    color: white;
+}
+
+
+/* Style Footer */
+
+footer {
+    background-color: #23272A;
+    height: 600px;
 }
