@@ -147,12 +147,13 @@ section{
 }
 
 .grey-bg {
-     background-color: /* #F6F6F6; */ red;
+     background-color: #F6F6F6; /* red; */
 }
 
 .last {
     text-align: center;
-    padding-top: 150px;
+    padding-top: 100px;
+    margin-top: -200px;
 }
 
 .img-last-section {
@@ -184,6 +185,18 @@ svg {
     margin-top: -88px;
     color: #F6F6F6;
 }
+
+/* .grey-wave {
+    color: #F6F6F6;
+} */
+
+.white-wave {
+    /* -webkit-transform: scaleX(-1);
+    transform: scaleX(-1); */
+    color: white;
+    margin-bottom: -238px;
+}
+
 
 /* Style Footer */
 
