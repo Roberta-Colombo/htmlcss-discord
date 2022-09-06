@@ -129,7 +129,7 @@ a.button.black-btn:hover {
 /* Style Section */
 
 section{
-    height: 800px;
+    height: 900px;
 }
 
 .section.main-text {
@@ -147,7 +147,7 @@ section{
 }
 
 .grey-bg {
-    background-color: #F6F6F6;
+     background-color: /* #F6F6F6; */ red;
 }
 
 .last {
@@ -180,6 +180,10 @@ a.button.violet-btn:hover {
     color: white;
 }
 
+svg {
+    margin-top: -88px;
+    color: #F6F6F6;
+}
 
 /* Style Footer */
 
