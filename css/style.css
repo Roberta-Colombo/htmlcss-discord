@@ -17,12 +17,6 @@ body {
     width: 500px;
 }
 
-.clearfix::after {
-    content: " ";
-    display: table;
-    clear: both;
-}
-
 /* Style nav */
 
 .container {
@@ -64,6 +58,7 @@ li a:hover {
 
 a.button:hover {
     color: #5865F2;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2);
 }
 
 .flexbox {
